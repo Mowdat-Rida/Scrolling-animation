@@ -19,7 +19,7 @@ h1 {
   margin: 10px;
 }
 .box {
-  background-color: rgb(15, 231, 202);
+  background-color: rgb(146, 203, 241);
   color: #fff;
   display: flex;
   align-items: center;
@@ -27,8 +27,8 @@ h1 {
   width: 400px;
   height: 200px;
   margin: 10px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+ text-transform: uppercase;  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
   transform: translateX(400%);
   transition: transform 0.4s ease;
   
@@ -40,5 +40,5 @@ h1 {
   transform: translateX(0);
 }
 .box h2 {
-  font-size: 45px;
+  font-size: 35px;
 }
